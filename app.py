@@ -3,6 +3,7 @@ import languagemodels as lm
 
 app = Flask('app')
 
+lm.do("hehehe")
 
 @app.route('/')
 def hello_world():
@@ -16,4 +17,4 @@ def hello_world():
   return res
 
 
-app.run(host='0.0.0.0')
+#app.run(host='0.0.0.0')
